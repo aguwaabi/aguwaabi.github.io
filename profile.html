@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SAMStagram</title>
+
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <div class="top_border">
+            <h1 align="center">SAMS-tagram</h1>
+        </div>
+        <div class="profile_block">
+            <p><b>Name</b></p>
+                <p id="profile_name">Andrew Carnegie</p>
+            <br><p><b>Photo</b></p>
+                <img id="profile_pic" src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxNTc1NTc2MDc3/andrew-carnegie-9238756-1-402.jpg" />
+            <p><b>Bio</b></p>
+                <p id="bio">I'm a Scottish-American industrialist, business magnate, and philanthropist. I led the expansion of the
+                American steel industry in the late 19th century and became one of the richest Americans in history. I also became a leading philanthropist in the United States 
+                in the United States and in the British Empire. During the last 18 years of his life, I gave away about $350 million to charities, foundations, and
+                universities - almost 90 percent of his fortune. My 1889 article proclaiming "The Gospel of Wealth" called on the rich to use their wealth to improve society, and stimulated a wave of philanthropy. </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1><b>Edit Profile</b></h1>
+            <form id="newprofile">
+                <br>Name <input type="text" id="name_form" />
+                <br>Image URL <input type="text" id="image_form" />
+                <br>Bio <input type="text" id="bio_form" />
+                <br><input type="submit" value="Save" id="savebutton" />
+            </form>
+        </div>
+        
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+            <script src="profile.js"></script>
+    </body>
+</html>
