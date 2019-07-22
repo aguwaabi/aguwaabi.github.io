@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-image: url("https://image.freepik.com/free-photo/pink-marble-texture-background_41389-158.jpg")
+}
+
+#form1 {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#form1 input[type=text] {
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    width: 200px;
+    height: 160px;
+    padding: 6px 6px;
+    box-sizing: border-box;
+    border-top: 40px solid IndianRed;
+    background-color: lightcoral;
+    text-align: top;
+    }
+
+#form1 input[type=text]:focus{
+    outline: none;
+}
+
+#container {
+    margin: 20px;
+}
+    .todo_card {
+        font-family: 'Sacramento', cursive;
+        font-size: 20px;
+        width: 200px;
+        height: 160px;
+        padding: 10px;
+        border-top: 40px solid IndianRed;
+        background-color: lightcoral;
+        display: inline-block;
+        margin: 20px 20px 0px 0px;
+
+    }
+

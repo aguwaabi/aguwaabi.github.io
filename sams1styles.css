@@ -1,0 +1,38 @@
+body {
+    background:grey;
+    font-family:Arial;
+    margin:0px;
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:1px;
+}
+.block{
+    background-color:white;
+    color:white;
+    height:115px;
+    margin:35px;
+}
+.chat1{
+    background-color:gainsboro;
+    margin:35px;
+    padding:10px;
+}
+.chat2{
+    background-color:gainsboro;
+    margin:35px;
+    padding:10px;
+}
+.chat3{
+    background-color:gainsboro;
+    margin:35px;
+    padding:10px;
+}
+.chat4 {
+    background-color: gainsboro;
+    margin: 35px;
+    padding: 10px;
+}
